@@ -1,0 +1,178 @@
+# ===========================
+# Gradle
+# ===========================
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+gradle-app.setting
+.gradletasknamecache
+
+# ===========================
+# Eclipse
+# ===========================
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.metadata
+.classpath
+.project
+.settings/
+.loadpath
+.recommenders
+*.launch
+local.properties
+
+# ===========================
+# IntelliJ IDEA
+# ===========================
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+
+# ===========================
+# Visual Studio Code
+# ===========================
+.vscode/
+*.code-workspace
+.history/
+
+# ===========================
+# Minecraft 开发
+# ===========================
+# 运行时目录
+run/
+runs/
+run-data/
+eclipse/
+
+# 日志文件
+logs/
+*.log
+
+# 崩溃报告
+crash-reports/
+
+# 本地保存和世界文件
+saves/
+screenshots/
+
+# 资源包
+resourcepacks/
+
+# Mod 缓存
+.mixin.out/
+
+# ===========================
+# 操作系统文件
+# ===========================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Linux
+*~
+
+# ===========================
+# 编辑器/IDE 临时文件
+# ===========================
+*.swo
+*.kate-swp
+.#*
+
+# ===========================
+# 编译输出
+# ===========================
+*.class
+*.jar
+!gradle/wrapper/*.jar
+!gradle-wrapper.jar
+
+# ===========================
+# Maven (如果使用)
+# ===========================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ===========================
+# 版本控制
+# ===========================
+*.orig
+
+# ===========================
+# 发布和打包
+# ===========================
+# 本地 Maven 仓库
+repo/
+
+# 发布草稿
+.release-drafts/
+
+# ===========================
+# 本地配置
+# ===========================
+# 本地环境变量
+.env
+.env.local
+.env.*.local
+
+# 个人笔记
+TODO.txt
+NOTES.txt
+
+# 测试输出
+test-output/
+
+# ===========================
+# 生成的文件
+# ===========================
+# Parchment 缓存
+.cache/
+
+# 访问转换器（如果使用）
+**/META-INF/accesstransformer.cfg.bak
+
+# ===========================
+# 其他
+# ===========================
+# 备份文件
+*.backup
+*.old
+
+# 压缩文件（除非是发布资源）
+# *.zip
+# *.tar.gz
+# *.rar
+
+# 临时文件
+*.temp
+
+# 文档生成
+docs/_build/
+site/

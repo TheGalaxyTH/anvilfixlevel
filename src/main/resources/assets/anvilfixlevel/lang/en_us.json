@@ -1,0 +1,13 @@
+{
+  "itemGroup.anvilfixlevel": "Example Mod Tab",
+  "block.anvilfixlevel.example_block": "Example Block",
+  "item.anvilfixlevel.example_item": "Example Item",
+
+  "anvilfixlevel.configuration.title": "AnvilFixLevel Configs",
+  "anvilfixlevel.configuration.section.anvilfixlevel.common.toml": "AnvilFixLevel Configs",
+  "anvilfixlevel.configuration.section.anvilfixlevel.common.toml.title": "AnvilFixLevel Configs",
+  "anvilfixlevel.configuration.items": "Item List",
+  "anvilfixlevel.configuration.logDirtBlock": "Log Dirt Block",
+  "anvilfixlevel.configuration.magicNumberIntroduction": "Magic Number Text",
+  "anvilfixlevel.configuration.magicNumber": "Magic Number"
+}
